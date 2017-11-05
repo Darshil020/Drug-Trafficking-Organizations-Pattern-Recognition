@@ -1,4 +1,4 @@
-# Drug-Trafficking-Organizations-Pattern-Recognition
+## Drug-Trafficking-Organizations-Pattern-Recognition
 In the 1990s New York City police investigated a cocaine crime ring by tapping phone
 conversations between suspected members of a gang. We have in this dataset, 28 indi-
 viduals who either placed and/or received a call from one of the others in the circle of
@@ -11,4 +11,36 @@ a drug tracking organization: a conversational analysis" by M Natarajan. The da
 was downloaded from UCINET.
 
 
-Objectives:
+## Objectives:
+
+1.	Manipulate the dataset to make it a tall table as shown below. Display this tall
+table.
+
+2.	How many calls were placed in total?
+
+3.	Who received the most calls?
+
+4.	Who placed the most calls?
+
+5.	Assume that each call is, just a connection. Compute the degree centrality of each
+person. Display in a visual graph. The degree centrality of a node(person) i, can
+be de_ned as the total number of nodes connected to node ni.
+
+6.	Assume that each call is just a connection. Compute the betweenness centrality
+of each person. Display in a visual graph. 
+
+7.	Using the calling/called information, and ignoring the number of calls placed,
+compute the indegree and outdegree centrality per person. Display in a visual
+graph. Indegree and outdegree centrality are simply the count of inwards and
+outwards directed connections to or from a node.
+
+8.	Assume that a call is just an indication of a connection between two people and it
+does not matter who placed or received the call. Can you visualize this network?
+
+9.	Assume that you are interested in only outbound calls (a directed arrow showing
+who called whom). Can you visualize this network?
+
+10.	Assume that you are interested in only inbound calls (a directed arrow showing
+who received the call from whom). Can you visualize this network?
+
+11.	Compare the three networks you have visualized. What are your observations?
