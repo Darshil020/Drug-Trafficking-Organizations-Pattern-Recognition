@@ -13,28 +13,31 @@ was downloaded from UCINET.
 
 ## Objectives:
 
-1.	Manipulate the dataset to make it a tall table as shown below. Display this tall
+1.	Build the R shiny application to do this project
+
+2.	Manipulate the dataset to make it a tall table as shown below. Display this tall
 table.
 
-2.	Assume that each call is, just a connection. Compute the degree centrality of each
+3.	Assume that each call is, just a connection. Compute the degree centrality of each
 person. Display in a visual graph. The degree centrality of a node(person) i, can
 be de_ned as the total number of nodes connected to node ni.
 
-3.	Assume that each call is just a connection. Compute the betweenness centrality
+4.	Assume that each call is just a connection. Compute the betweenness centrality
 of each person. Display in a visual graph. 
 
-4.	Using the calling/called information, and ignoring the number of calls placed,
+5.	Using the calling/called information, and ignoring the number of calls placed,
 compute the indegree and outdegree centrality per person. Display in a visual
 graph. Indegree and outdegree centrality are simply the count of inwards and
 outwards directed connections to or from a node.
 
-5.	Assume that a call is just an indication of a connection between two people and it
+6.	Assume that a call is just an indication of a connection between two people and it
 does not matter who placed or received the call. Can you visualize this network?
 
-6.	Assume that you are interested in only outbound calls (a directed arrow showing
+7.	Assume that you are interested in only outbound calls (a directed arrow showing
 who called whom). Can you visualize this network?
 
-7.	Assume that you are interested in only inbound calls (a directed arrow showing
+8.	Assume that you are interested in only inbound calls (a directed arrow showing
 who received the call from whom). Can you visualize this network?
 
-8.	Compare the three networks you have visualized. What are your observations?
+9.	Compare the three networks you have visualized. What are your observations?
+
